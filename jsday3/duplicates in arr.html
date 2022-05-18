@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <div>
+    <h2>Javascript Arrays Printing unique values</h2>
+    <input type="button" value="Click Me" onclick="myFunction()">
+  </div>
+  <script>
+
+    var fruits = ["apple","banana","papaya","papaya"];
+     
+    function myFunction() {
+    let uniqueChars = [...new Set(fruits)];
+    console.log('Unique Elements of the array are:', uniqueChars);
+
+}
+
+    
+</script>
+</body>
+
+</html>
